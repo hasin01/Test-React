@@ -13,3 +13,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.sectionapp{
+  display: flex;
+flex-wrap: wrap; 
+justify-content: space-between;
+
+
+  
+}
+.section{
+  border: 2px solid ;
+  padding: 20px;
+}
+.name{
+  margin-right: 20px;
+}
+.wraper{
+  display: flex;
+}
+.age{
+  text-align: center;
+}
