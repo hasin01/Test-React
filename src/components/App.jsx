@@ -1,6 +1,4 @@
-import { FetchImages } from './Section';
-import { Rection } from "./Rection2";
-import userData from '../users.json'
+import { Section } from "./Section";
 
 
 export const App = () => {
@@ -9,21 +7,10 @@ export const App = () => {
   
 
   return (
-<>
-<div className="sectionapp">
- {userData.map(user =>(
+    <>
+   <Section/>
 
-<Rection key = {user.id} name ={user.name} surname ={user.surname} age ={user.age}/>
-
-
- ))}
-
-
-
-
-</div>
-<fetchImages/>
-</>
-
+    </>
   );
-};
+
+  }
